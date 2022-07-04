@@ -1,12 +1,12 @@
 {
   "name": "my-homepage",
+  "author": "DevenTW",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "sh deploy.sh"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^2.9.9"
