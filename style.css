@@ -1,0 +1,70 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+
+}
+
+body {
+  margin: 0;
+  background-color: #f7f4ed;
+}
+
+a {
+  color: #000;
+  font-weight: 900;
+}
+
+.body {
+  font-family: 'Noto Sans TC', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.holdon {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.avatar {
+  border-radius: 16%;
+  border: rgb(255, 255, 255) 8px solid; 
+}
+
+.intro {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .intro {
+    margin: 0 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .intro {
+    margin: 0 25%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    margin: 0 32px;
+  }
+}
+
+.social {
+  text-align: right;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.icon {
+  width: 25px;
+  margin-left: 20px;
+}
