@@ -1,2 +1,2 @@
 # my-homepage
-[Press Here](https://deven.tw/)
+[Click Me](https://deven.tw/)
