@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Main = () => {
   return (
-    <div>
+    <div className="my-4">
         <p>Heyo! I&apos;m DevenTW.</p>
         {/* <p>I live in Hong Kong and just graduated 🎓.</p> */}
         <p>I live in Hong Kong and work as a Developer 👨‍💻. </p>

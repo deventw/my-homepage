@@ -18,7 +18,16 @@ function App () {
         <Main/>
         <Footer/>
      </div>
-      <span className="with-love"><i className="fa fa-heart" /></span>
+<div className="flex justify-center align-center">
+      <span className="with-love">
+        <a href="https://instagram.com/yuvkky?igshid=YmMyMTA2M2Y=">
+          <i className="fa fa-heart" style={{ color: '#B0C8FA' }} />
+        </a>
+      </span>
+      <span className="with-love"><i className="fa fa-heart" style={{ color: '#C8A7E0' }}/></span>
+      <span className="with-love"><i className="fa fa-heart" style={{ color: '#F6C9D2' }}/></span>
+
+</div>
 
     </div>
 
