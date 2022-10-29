@@ -1,19 +1,18 @@
 import './App.css';
 import React from 'react';
-import { Logo } from './components/Logo';
+
 import { Main } from './components/Main';
 import { Footer } from './components/Footer';
 import { Pier } from './components/Pier';
+import { Avatar } from './components/Avatar';
 
-function App () {
+function App() {
 	return (
 		<div className="App">
-			<Pier/>
+			<Pier />
 			<div
-				className="intro flex-row w-80 border-2 border-rose-300 rounded-3xl p-8 drop-shadow-2xl font-light "
-			
-			>
-				<Logo />
+				className="intro flex-row w-80 md:w-90 border-2 border-rose-300 rounded-3xl p-8 drop-shadow-2xl font-light   justify-center items-center text-xl">
+				<Avatar />
 				<Main />
 				<Footer />
 			</div>
