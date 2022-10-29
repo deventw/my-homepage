@@ -15,7 +15,8 @@ export const Main = () => {
 			</div>
 
 			<p>
-				<a href="/lib.html">Here</a> are some projects I have made.
+				<a href="https://github.com/deventw" target="_blank" rel="noreferrer">
+				Here</a> are some projects I have made.
 			</p>
 		</div>
 	);
