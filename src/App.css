@@ -18,7 +18,6 @@
 }
 
 
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -74,15 +73,7 @@
 
 }
 
-.avatar {
-  border-radius: 16%;
-  border: rgb(255, 255, 255) 8px solid; 
-}
 
-
-.intro {
-  font-size: 18px;
-}
 
 .social {
   text-align: right;
@@ -94,11 +85,7 @@
 
 .icon {
   width: 25px;
-  margin-left: 20px;
 }
-
-
-
 
 
 /* heartbeat icon */
@@ -166,7 +153,6 @@
     transform: scale(1.1);
   }
 }
-
 
 
 .read-the-docs {
