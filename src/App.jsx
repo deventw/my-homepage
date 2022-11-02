@@ -11,7 +11,7 @@ function App() {
 		<div className="App">
 			<Pier />
 			<div
-				className="intro flex-row w-80 md:w-90 border-2 border-rose-300 rounded-3xl p-8 drop-shadow-2xl font-light   justify-center items-center text-xl">
+				className="intro flex-row w-80 md:w-90 border-4 border-rose-300 rounded-3xl p-8 drop-shadow-2xl font-light  justify-center items-center text-xl">
 				<Avatar />
 				<Main />
 				<Footer />
