@@ -20,7 +20,7 @@ export const Note = ({id,text,date,removeNote}) => {
 	};
 	return (
 		<div className="note flex my-4  text-sm  bg-slate-300 p-4  rounded flex-col w-80 md:w-96  ">
-			<span className="flex flex-wrap text-left mb-16 break-all">{text}</span>
+			<span className="flex flex-wrap text-left mb-16 break-all whitespace-pre-line">{text}</span>
             
 			<div className="note-footer flex flex-row justify-between">
 				<small>{date}</small>
