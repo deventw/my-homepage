@@ -38,8 +38,6 @@ body {
 }
 
 
-
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -52,3 +50,4 @@ body {
     background-color: #f9f9f9;
   }
 }
+

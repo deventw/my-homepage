@@ -20,7 +20,11 @@
         "indent": [
             "error",
             "tab"
-        ],
+        ]    ,
+        "consistent-return": 2,
+        "no-else-return"   : 1,
+        "space-unary-ops"  : 2,
+        "space-in-parens": ["error", "never"],
         "linebreak-style": [
             "error",
             "unix"
@@ -32,6 +36,9 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "react/prop-types" : "off",
+        "no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 1}]
+
     }
 }
