@@ -1,5 +1,4 @@
-import { nanoid } from 'nanoid';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { About } from './pages/About';
@@ -7,27 +6,6 @@ import Home from './pages/Home';
 import { Notepad } from './pages/Notepad';
 
 function App() {
-	const [notes, setNotes] = useState([]);
-
-	useEffect(() =>{
-		const savedNotes = JSON.parse(localStorage.getItem('react-notes-app-data'));
-		if (savedNotes) {
-			setNotes(savedNotes);	
-		}
-	},[]);
-	useEffect(() =>{localStorage.setItem('react-notes-app-data',JSON.stringify(notes));},[notes]);
-
-	const addNote = (text) => {
-		const newNote = {
-			id:nanoid(),
-			text:text,
-			date:new Date().toLocaleString()
-		}; 
-		setNotes([...notes,newNote]);
-	};
-	const removeNote = (id) => {
-		setNotes(notes.filter((note)=>note.id !== id));
-	};
 
 	return (
 		<>
@@ -42,7 +20,7 @@ function App() {
 			<></>
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/notepad" element={<Notepad notes={notes} addNote={addNote} removeNote={removeNote}/>} />
+				<Route path="/notepad" element={<Notepad />} />
 				<Route path="/about" element={<About />} />
 			</Routes>
 		</>
