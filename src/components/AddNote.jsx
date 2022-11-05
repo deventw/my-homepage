@@ -19,7 +19,7 @@ const AddNote = ({addNote}) => {
 			<label htmlFor="note" className="block mb-2 text-sm font-medium text-gray-900">Jot Notes</label>
 
 			<textarea id="new-note" rows="5" 
-				className="block p-4 w-full shadow-sm text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:border-8  focus:outline-none focus:ring-pink-500 focus:border-pink-500 placeholder:italic " 
+				className="block p-4 w-full shadow-sm text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:border-4  focus:outline-none focus:ring-pink-500 focus:border-pink-500 placeholder:italic " 
 				placeholder="Type your notes..."
 				value={noteText}
 				
