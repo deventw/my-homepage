@@ -11,7 +11,7 @@ const AddNote = ({addNote}) => {
 		if(noteText.trim().length>0){
 			addNote(noteText);
 			setNoteText('');
-		}else{alert('Nothing to save. XD');}
+		}else{alert('Nothing to save. ૮ ˶ᵔ ᵕ ᵔ˶ ა \n\n(づ˶•༝•˶) づ♡');}
 	};
  
 	return (

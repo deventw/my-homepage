@@ -3,6 +3,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { About } from './pages/About';
 import Home from './pages/Home';
+import NoPage from './pages/NoPage';
 import { Notepad } from './pages/Notepad';
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
 			<></>
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/notepad" element={<Notepad />} />
-				<Route path="/about" element={<About />} />
+				<Route path="notepad" element={<Notepad />} />
+				<Route path="about" element={<About />} />
+				<Route path="*" element={<NoPage />} />
 			</Routes>
 		</>
 
