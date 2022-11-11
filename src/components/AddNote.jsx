@@ -15,7 +15,7 @@ const AddNote = ({addNote}) => {
 	};
  
 	return (
-		<div className="w-80 md:w-96">
+		<div className="w-80 md:w-96 p-2">
 			<label htmlFor="note" className="block mb-2 text-sm font-medium text-gray-900">Jot Notes</label>
 
 			<textarea id="new-note" rows="5" 
