@@ -32,6 +32,8 @@ export const Notepad = () => {
 		<div className="w-full">
 			<AddNote addNote={addNote}/>
 			{notes.map((note) =>(<Note key={note.id} id={note.id} text={note.text} date={note.date} removeNote={removeNote}  />))}
+			<div className="flex justify-evenly "> 
+				<img src={ConeImage} width={'64'} /> 
 				<img src={ConeImage} width={'64'} /> 
 				<img src={ConeImage} width={'64'} /> 
 			</div>
