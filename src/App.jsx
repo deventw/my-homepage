@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { About } from './pages/About';
+import Days from './pages/Days';
 import Home from './pages/Home';
 import NoPage from './pages/NoPage';
 import { Notepad } from './pages/Notepad';
@@ -23,6 +24,7 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="notepad" element={<Notepad />} />
 				<Route path="about" element={<About />} />
+				<Route path="days" element={<Days />} />
 				<Route path="*" element={<NoPage />} />
 			</Routes>
 		</>
