@@ -1,6 +1,6 @@
 import React from 'react';
 
-import oldMan from '../assets/oldMan.gif';
+import oldMan from '../assets/oldman.gif';
 
 const Days = () => {
 
