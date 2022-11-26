@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import AddNote from '../components/AddNote';
 import { Note } from '../components/Note';
 import ConeImage from '../assets/cone.png'; 
+import { toast } from 'react-hot-toast';
 
 export const Notepad = () => {
 
@@ -23,9 +24,13 @@ export const Notepad = () => {
 			date:new Date().toLocaleString()
 		}; 
 		setNotes([newNote,...notes]);
+		toast.success('Saved');
+		
 	};
+
 	const removeNote = (id) => {
 		setNotes(notes.filter((note)=>note.id !== id));
+		toast.error('Note Deleted.');
 	};
 
 	return (
