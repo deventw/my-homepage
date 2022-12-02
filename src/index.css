@@ -10,9 +10,10 @@
   font-weight: 400;
   color-scheme: light dark;
   /* color: #ffffffde; */
-  color: #242424;
+  color: #fcfcfc;
   /* background-color: #242424; */
-  background-color: #f7f4ed;
+  /* background-color: #f7f4ed; */
+  background-color: #282c34;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

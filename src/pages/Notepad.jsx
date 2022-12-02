@@ -30,7 +30,7 @@ export const Notepad = () => {
 
 	const removeNote = (id) => {
 		setNotes(notes.filter((note)=>note.id !== id));
-		toast.error('Note Deleted.');
+		toast.error('Deleted');
 	};
 
 	return (

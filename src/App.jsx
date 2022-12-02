@@ -1,6 +1,7 @@
 import React from 'react';
 import { Toaster } from 'react-hot-toast';
 import { Link, Route, Routes } from 'react-router-dom';
+import Snowfall from 'react-snowfall';
 import './App.css';
 import { About } from './pages/About';
 import Days from './pages/Days';
@@ -13,6 +14,7 @@ function App() {
 	return (
 		<>
 			<div><Toaster/></div>
+			<Snowfall    snowflakeCount={100} />
 			<nav>
 				<ul className="flex-row flex gap-4 m-8 justify-center">
 					<li><Link to="/">Home</Link></li>

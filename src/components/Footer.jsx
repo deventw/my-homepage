@@ -11,7 +11,7 @@ export const Footer = () => {
 
 			<div className="social flex  ">
 				<a href="https://github.com/deventw" target="_blank" rel="noreferrer">
-					<img
+					<img 
 						className="icon animate-bounce"
 						src="https://raw.githubusercontent.com/feathericons/feather/master/icons/github.svg"
 						alt="github icon"
